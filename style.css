@@ -278,6 +278,18 @@ section h2,
   transition: 200ms;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
 .scroll-to-top {
   text-decoration: none;
   color: var(--color-accent);
@@ -295,7 +307,7 @@ section h2,
   opacity: 0.6;
 }
 
-media (min-width: 640px) {
+@media (min-width: 640px) {
   .social-link-container {
     gap: 1.5rem;
   }
